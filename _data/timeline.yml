@@ -1,0 +1,30 @@
+- title: Computer Vision Engineer
+  from: May 2021
+  to: present
+  description: -Created a physical model for ball flight to estimate its 3D trajectory in space using flight equations and machine learning<br />
+               - Used Blender for synthetic data generation in required tasks<br />
+               - Implemented a 3D pose estimation algorithm using template matching based approaches<br />
+               - Created a novel model for estimating relative 3D rotation between different views<br />
+               - Investigated correlation based approaches for relative 3D rotation estimation<br />
+               - Worked and implemented an accurate ball segmentation algorithm based on classical approaches<br />
+               - Working on some basic object tracker algorithms<br />
+               - Hands on experience in C++ deployment and conversion of Deep Learning models to other frame works to increase inference speed in edge devices<br />
+
+- title: Computer Vision and Machine Learning Engineer
+  from: Feb 2020
+  to: May 2021
+  description: -Worked on city surveillance project which includes various tasks such as; person detection, attribute classification, anomaly detection using 3D action features, text detection, change detection, etc.<br />
+               - Worked on pose estimation for robotic arms which includes tasks such as; object segmentation over real world data using synthetically generated data, 3D pose estimation w.r.t. camera frame<br />
+               - Worked on wide area surveillance project which includes tasks such as; image enhancement and video stabilization in both thermal and visible data, tiny object segmentation in wide area, change detection, multi object tracking using Kalman Filter<br />
+               - Worked on a military wide area object segmentation competition named as Y3 and got the first place<br />
+               - Hands on experience in TensorRT for inference time optimization<br />
+
+- title: MSc Student, Middle East Technical University
+  from: June 2018
+  to: September 2022
+  description: -MSc Degree in Electrical and Electronics Engineering
+
+- title: BSc Student, Middle East Technical University
+  from: September 2013
+  to: June 2018
+  description: -BSc Degree in Electrical and Electronics Engineering
