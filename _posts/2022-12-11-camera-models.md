@@ -1,6 +1,6 @@
 ---
 title: "Camera Models"
-date: 2020-06-07 18:25:00 +0800
+date: 2022-12-11 02:03:00 +0800
 categories: [Machine Vision]
 tags: []
 header-includes:
@@ -21,11 +21,13 @@ z \\
 
 \end{bmatrix}$$
 
-$$p_{image} = \begin{bmatrix}
+$$
+p_{image} = \begin{bmatrix}
 m \\
 n \\
 
 \end{bmatrix}$$
+
 
 These definitions are done according to Euclidian geometry, but is Euclidiean geometry is enough for modeling this whole image capturing process and camera modelling? 
 
@@ -33,9 +35,10 @@ No, it is not.
 
 <!-- ![Railroad](/assets/railroad.png "railroad") -->
 
-<p align="center" width="100%">
+<!-- <p align="center" width="100%">
     <img width="33%" src=/assets/railroad.png>
-</p>
+</p> -->
+{% include elements/figure.html image="/assets/railroad.png" caption="railroad" %}
 
 <!-- $$
 \begin{align*}
