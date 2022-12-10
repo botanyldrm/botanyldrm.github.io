@@ -72,7 +72,51 @@
   </div>
 
 </nav>
-    
+    <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
+
+<div class="input-group mt-5 px-3">
+  <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..">
+  <div class="input-group-append">
+    <span class="input-group-text border border-primary bg-primary text-white">
+      <i class="fas fa-search"></i>
+    </span>
+  </div>
+  <button class="btn btn-outline-primary ml-1" onclick="location.href = '/blog/tags';">
+    <i class="fas fa-tags"></i>
+  </button>
+</div>
+<ul class="px-3" id="results-container"></ul>
+
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
+        noResultsText: '<li class="list-group-item list-group-item-action disabled">No results found</li>',
+        json: '/search.json'
+      })
+</script>
+<div class="card-group mt-2">
+
+  
+    <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/blog/camera-models" class="post card border border-">
+    <div class="card-body text-themed">
+      <h3 class="card-title">Camera Models</h3>
+      <p class="card-text">
+        
+      </p>
+      <p class="card-text"><h2 id="introduction">Introduction</h2> <p>We can represent a world object as a combination of the multiple world points which are connected to each other. Also, image of<small><i>  read more...</i></small></p>
+    </div>
+    <div class="card-footer text-themed">
+      07 June 2020
+    </div>
+  </a>
+</div>
+  
+  
+</div>
   </main>
   <footer class="mt-auto py-3 text-center">
 
